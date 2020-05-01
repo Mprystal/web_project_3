@@ -1,5 +1,6 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
 
 .cover {
   width: 74rem;
@@ -39,6 +40,12 @@
   .cover {
     height: 30rem;
     margin-bottom: 5.625rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .cover {
+    height: 15rem;
   }
 }
 

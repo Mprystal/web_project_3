@@ -1,6 +1,5 @@
 .intro__list {
   max-width: 43.125rem;
-  height: 4.5rem;
   list-style: none;
   padding-top: 2rem;
   padding-left: 0;
@@ -16,6 +15,5 @@
 @media screen and (max-width: 320px) {
   .intro__list {
     max-width: 18rem;
-    height: 4.5rem;
   }
 }

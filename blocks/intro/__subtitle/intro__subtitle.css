@@ -1,6 +1,5 @@
 .intro__subtitle {
   max-width: 43.125rem;
-  height: 4.25rem;
   font-size: 24px;
   line-height: 1.417;
   color: #ffffff;
@@ -18,7 +17,6 @@
 @media screen and (max-width: 320px) {
   .intro__subtitle {
     max-width: 18rem;
-    height: 5.625rem;
     font-size: 24px;
     line-height: 1.25;
   }
