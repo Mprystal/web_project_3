@@ -1,0 +1,21 @@
+@import url(./_big/places__website_big.css);
+
+.places__website {
+  max-width: 28.5rem;
+  height: 2.875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    max-width: 22rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    display: none;
+  }
+}

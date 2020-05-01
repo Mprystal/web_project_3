@@ -1,0 +1,33 @@
+@import url(./__list/header__list.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
+
+.header {
+  max-width: 61.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.125rem 9.25rem 3.625rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 58rem;
+    padding: 2.125rem 3rem 3.125rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 45rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 18rem;
+    height: 2.25rem;
+    padding: 1.25rem 1rem 3.125rem;
+  }
+}

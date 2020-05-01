@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./Inter-Bold.woff);
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./Inter-Regular.woff);
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
