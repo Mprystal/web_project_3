@@ -1,8 +1,6 @@
 .place__list-item {
   width: 61.5rem;
-  max-height: 41.75rem;
   margin-bottom: 5rem;
-  display: flex;
 }
 
 .place__list-item:last-child {
@@ -12,14 +10,12 @@
 @media screen and (max-width: 1024px) {
   .place__list-item {
     width: 58rem;
-    max-height: 45.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__list-item {
     width: 45rem;
-    max-height: 41.375rem;
     margin-bottom: 4.5rem;
     flex-wrap: wrap;
   }
@@ -28,14 +24,12 @@
 @media screen and (max-width: 415px) {
   .place__list-item {
     width: 35rem;
-    max-height: 65rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__list-item {
     width: 100%;
-    max-height: 69.813rem;
     margin-bottom: 3rem;
   }
 }

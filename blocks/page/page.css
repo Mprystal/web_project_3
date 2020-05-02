@@ -1,28 +1,15 @@
 .page {
   max-width: 80rem;
-  min-height: 442.125rem;
+  min-height: 100vh;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
   background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 100%;
-    min-height: 449.875rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 100%;
-    min-height: 456.313rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    max-width: 100%;
-    min-height: 624.75rem;
   }
 }

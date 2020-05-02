@@ -1,0 +1,11 @@
+.place__section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 415px) {
+  .place__section {
+    flex-direction: column;
+  }
+}

@@ -1,4 +1,7 @@
 @import url(./__list-item/place__list-item.css);
+@import url(./__header/place__header.css);
+@import url(./__section/place__section.css);
+@import url(./__description/place__description.css);
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
 @import url(./__website/place__website.css);
@@ -10,4 +13,6 @@
   list-style: none;
   margin: 0;
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
 }
