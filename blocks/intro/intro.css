@@ -6,9 +6,10 @@
 @import url(./__list-title/intro__list-title.css);
 
 .intro {
-  width: 43.125rem;
+  max-width: 52.375rem;
   padding-left: 9.25rem;
   padding-bottom: 5.75rem;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,23 +20,13 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 45rem;
-    height: 33.875rem;
+    max-width: 100%;
     padding: 0 1.5rem 5.5rem;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .intro {
-    width: 22rem;
-    height: 55rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 18rem;
-    height: 52.44rem;
     padding: 0 1rem 4rem;
   }
 }

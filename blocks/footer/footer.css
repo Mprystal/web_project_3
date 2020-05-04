@@ -5,7 +5,6 @@
 
 .footer {
   width: 74rem;
-  height: 1.125rem;
   margin: 0 3rem 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -28,7 +27,6 @@
 @media screen and (max-width: 415px) {
   .footer {
     width: 10.5rem;
-    height: 12.375rem;
     flex-direction: column;
     margin: 0 1rem 1.5rem;
   }

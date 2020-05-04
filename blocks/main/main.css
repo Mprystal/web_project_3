@@ -1,0 +1,28 @@
+@import url(./__title/main__title.css);
+@import url(./__subtitle/main__subtitle.css);
+@import url(./__image/main__image.css);
+@import url(./__caption/main__caption.css);
+@import url(./__figure/main__figure.css);
+
+.main {
+  box-sizing: border-box;
+  padding: 0 9.25rem 5.75rem;
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0 0 5.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding-bottom: 4rem;
+  }
+}

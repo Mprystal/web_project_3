@@ -1,26 +1,29 @@
 .places {
-  width: 61.5rem;
-  padding: 0 9.25rem 5.75rem;
+  width: 100%;
+  max-width: 61.5rem;
+  padding: 0 0 5.75rem;
+  margin-left: 9.25rem;
+  margin-right: 9.25rem;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: 58rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    width: 45rem;
     padding: 0 1.5rem 5.5rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 415px) {
   .places {
-    width: 100%;
     padding: 0 0 4rem;
   }
 }
