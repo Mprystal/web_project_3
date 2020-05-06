@@ -1,23 +1,23 @@
-.main__image {
+.lead__image {
   width: 61.5rem;
   height: 38.438rem;
 }
 @media screen and (max-width: 1024px) {
-  .main__image {
+  .lead__image {
     width: 58rem;
     height: 36.25rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .main__image {
+  .lead__image {
     width: 100%;
     height: 30rem;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .main__image {
+  .lead__image {
     height: 12.5rem;
   }
 }
